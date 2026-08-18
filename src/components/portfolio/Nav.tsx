@@ -37,12 +37,12 @@ export function Nav() {
           </span>
         </a>
 
-        <ul className="hidden items-center gap-1 lg:flex">
+        <ul className="hidden items-center gap-0.5 xl:flex">
           {NAV.map((n) => (
             <li key={n.id}>
               <a
                 href={`#${n.id}`}
-                className="rounded-md px-2.5 py-2 text-[13px] text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
+                className="rounded-md px-2 py-2 text-[13px] whitespace-nowrap text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
               >
                 {n.label}
               </a>
@@ -61,13 +61,13 @@ export function Nav() {
           </button>
           <a
             href={PROFILE.resume}
-            className="hidden rounded-md bg-primary px-3.5 py-2 text-[13px] font-medium text-primary-foreground transition-opacity hover:opacity-90 sm:inline-flex"
+            className="hidden rounded-md bg-primary px-3.5 py-2 text-[13px] font-medium whitespace-nowrap text-primary-foreground transition-opacity hover:opacity-90 sm:inline-flex"
           >
             View Resume
           </a>
           <button
             type="button"
-            className="flex h-9 w-9 items-center justify-center rounded-md border border-border lg:hidden"
+            className="flex h-9 w-9 items-center justify-center rounded-md border border-border xl:hidden"
             aria-label={open ? "Close menu" : "Open menu"}
             aria-expanded={open}
             onClick={() => setOpen((v) => !v)}
@@ -78,7 +78,7 @@ export function Nav() {
       </nav>
 
       {open ? (
-        <div className="border-t border-border bg-background/95 backdrop-blur-xl lg:hidden">
+        <div className="border-t border-border bg-background/95 backdrop-blur-xl xl:hidden">
           <ul className="mx-auto grid max-w-6xl grid-cols-2 gap-1 px-5 py-4 sm:px-8">
             {NAV.map((n) => (
               <li key={n.id}>
