@@ -353,3 +353,56 @@ export const TIMELINE = [
     points: ["Technology consulting and development-oriented simulation tasks"],
   },
 ];
+
+export const CERTIFICATIONS = [
+  {
+    title: "Deloitte Australia — Data Analytics Job Simulation",
+    org: "Forage",
+    date: "June 2026",
+    note: "Data analysis, interpretation and business-context reporting tasks.",
+  },
+  {
+    title: "Deloitte Australia — Technology Job Simulation",
+    org: "Forage",
+    date: "June 2026",
+    note: "Technology consulting and development-oriented simulation tasks.",
+  },
+  {
+    title: "Artificial Intelligence Internship",
+    org: "ReshApp Software Solutions Pvt. Ltd.",
+    date: "2026",
+    note: "AI/ML workflows, data preprocessing, testing and documentation.",
+  },
+];
+
+export const AI_WORKFLOW = [
+  { step: "Problem framing", detail: "Understanding what the model is actually meant to predict or assist with." },
+  { step: "Data preparation", detail: "Cleaning, handling missing values and encoding features with Pandas and NumPy." },
+  { step: "Exploratory analysis", detail: "Distributions, correlations and outliers before any modelling decisions." },
+  { step: "Model development", detail: "Training baseline models and reasoning about their behaviour and limits." },
+  { step: "Evaluation", detail: "Interpreting metrics honestly and identifying where the model fails." },
+  { step: "Application", detail: "Wiring AI-assisted features into a real product surface." },
+];
+
+export const QA_PRINCIPLES = [
+  { title: "Break it before users do", detail: "Every feature is examined for the inputs and states nobody planned for." },
+  { title: "Test the contract, not the screen", detail: "API status codes, payload shapes and validation rules get checked directly." },
+  { title: "Reproduce, then report", detail: "Clear steps, severity and priority — defects that a developer can act on." },
+  { title: "Regression is not optional", detail: "Existing flows are re-verified after every meaningful change." },
+];
+
+export const DEVOPS_STEPS = [
+  { title: "Version control", detail: "Git branching and GitHub-based collaboration." },
+  { title: "Configuration", detail: "Environment variables and per-environment secrets kept out of source." },
+  { title: "Deployment", detail: "Frontend on Netlify, backend services on Render." },
+  { title: "Managed data", detail: "MongoDB Atlas for cloud persistence and access rules." },
+  { title: "CI/CD concepts", detail: "Understanding build, test and deploy pipelines conceptually." },
+];
+
+export const SECURITY_ITEMS = [
+  { title: "Authentication", detail: "JWT-based sessions with token expiry and secure storage handling." },
+  { title: "Authorization", detail: "Users can only read and modify records they own." },
+  { title: "Input validation", detail: "Server-side validation before anything reaches the database." },
+  { title: "Secure API design", detail: "Protected routes, least-privilege responses, no data leakage in errors." },
+  { title: "OWASP fundamentals", detail: "Awareness of injection, broken access control and misconfiguration risks." },
+];
