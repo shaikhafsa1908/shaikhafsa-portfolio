@@ -1,5 +1,6 @@
 import { Reveal, Section, SectionHeading } from "./Reveal";
 import { Hammer, TestTube2, ShieldCheck, Rocket, BrainCircuit } from "lucide-react";
+import portraitAsset from "@/assets/hafsa-portrait.png.asset.json";
 
 const PERSPECTIVES = [
   {
