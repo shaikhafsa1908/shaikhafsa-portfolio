@@ -1,6 +1,6 @@
 # Quality Code Forge
 
-Build a premium, cinematic, recruiter-focused personal portfolio website for Hafsa Shaik, a B.Tech Computer Science & Engineering (Artificial Intelligence) student graduating in 2027, targeting roles such as Associate Software Tester, Software Test Engineer, QA Engineer, Junior QA Engineer, and Software Engineer.
+Build a premium, cinematic, recruiter-focused personal portfolio website for Hafsa Shaik, a B.Tech Computer Science & Engineering (Artificial Intelligence) student graduating in 2027, targeting roles such as  Associate Software Tester, Software Test Engineer, QA Engineer, Junior QA Engineer, and Software Engineer.
 
 The website must NOT look like a typical student portfolio or generic developer template.
 
