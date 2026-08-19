@@ -2,9 +2,9 @@ export const PROFILE = {
   name: "Hafsa Shaik",
   degree: "B.Tech CSE — Artificial Intelligence",
   years: "2023–2027",
-  email: "hafsashaik.work@gmail.com",
-  github: "https://github.com/hafsashaik",
-  linkedin: "https://www.linkedin.com/in/hafsashaik",
+  email: "shaikhafsa433@gmail.com",
+  github: "https://github.com/shaikhafsa1908",
+  linkedin: "https://www.linkedin.com/in/hafsa-shaik-501419351",
   resume: "#contact",
 };
 
