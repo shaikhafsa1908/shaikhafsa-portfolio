@@ -1,5 +1,10 @@
 import { Reveal, Section, SectionHeading } from "./Reveal";
 import { Hammer, TestTube2, ShieldCheck, Rocket, BrainCircuit } from "lucide-react";
+<<<<<<< HEAD
+=======
+import portraitAsset from "@/assets/hafsa-portrait.png.asset.json";
+
+>>>>>>> 4fd66b76c49f988ca3817a1c013f4efbc880f353
 const PERSPECTIVES = [
   {
     icon: Hammer,
@@ -49,7 +54,11 @@ export function About() {
             <div className="relative mx-auto w-fit lg:mx-0">
               <div className="absolute -inset-1 rounded-full bg-gradient-to-tr from-primary/40 via-primary/20 to-transparent blur-md" />
               <img
+<<<<<<< HEAD
                 src="/hafsa-portrait.png"
+=======
+                src={portraitAsset.url}
+>>>>>>> 4fd66b76c49f988ca3817a1c013f4efbc880f353
                 alt="Hafsa Shaik"
                 className="relative h-40 w-40 rounded-full border-2 border-primary/30 object-cover shadow-xl"
               />
